@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://w.wallha.com/ws/6/i51Fuhep.jpg);
+}
+
+.container{
+    border: solid black;
+    background-color: white;
+    display: flex;
+}
+.first{
+    font-style: oblique;
+    font-size: 1vw;
+    border: double black;
+    height: 22vh;
+}
+.second{
+    font-style: oblique;
+    font-size: 1vw;
+    border: double black;
+    height: 22vh;
+}
+.third{
+    font-style: oblique;
+    font-size: 1vw;
+    border: double black;
+    height: 22vh;
+}
+header{
+    display: flex;
+    justify-content: center;
+    font-weight:900;
+    color:black;
+}
+.box{
+    font-size: 1vw;
+    font-weight: bolder;
+    width: 25vw;
+}
+.petisco{
+    background-color: #DEB887;
+    height: 8vh;
+    width: 11vw;
+    position: absolute;
+    top: 60vh;
+    left: 30vw;
+    transform: rotate(10deg);
+}
+.petisco2{
+    background-color: #DEB887;
+    height: 6vh;
+    width: 7vw;
+    position: relative;
+    top: 15vh;
+    left: 26vw;
+    transform: rotate(101deg);
+    border-radius: 10px;
+}
+.petisco3{
+    background-color: #DEB887;
+    height: 6vh;
+    width: 7vw;
+    position: relative;
+    top: 14vh;
+    left: 38vw;
+    transform: rotate(101deg);
+    border-radius: 10px;
+}
